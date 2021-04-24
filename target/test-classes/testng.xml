@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http//testing.org/testng-1.0.dtd">
+<suite name="Test Suite" parallel="methods" thread-count="2">
+    <test name="Trigonometry Calculator Test">
+        <groups>
+            <run>
+                <include name="trig"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.epam.testng.tests.SinCalculatorTest"/>
+            <class name="com.epam.testng.tests.CosCalculatorTest"/>
+            <class name="com.epam.testng.tests.TgCalculatorTest"/>
+            <class name="com.epam.testng.tests.CtgCalculatorTest"/>
+        </classes>
+    </test>
+    <test name="Positive Calculator Test">
+        <groups>
+            <run>
+                <include name="positive"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.epam.testng.tests"></package>
+        </packages>
+    </test>
+</suite>

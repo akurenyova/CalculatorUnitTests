@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Demo Suite" duration-ms="66" started-at="2021-04-18T15:47:17 EEST" finished-at="2021-04-18T15:47:17 EEST">
+    <groups>
+    </groups>
+    <test name="Sum Calculator Test" duration-ms="40" started-at="2021-04-18T15:47:17 EEST" finished-at="2021-04-18T15:47:17 EEST">
+      <class name="SumCalculatorTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:SumCalculatorTest@52af6cff]" name="setUp" is-config="true" duration-ms="8" started-at="2021-04-18T15:47:17 EEST" finished-at="2021-04-18T15:47:17 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="aPlusBTest(long,long,long)[pri:0, instance:SumCalculatorTest@52af6cff]" name="aPlusBTest" duration-ms="3" started-at="2021-04-18T15:47:17 EEST" data-provider="valuesForSumTest" finished-at="2021-04-18T15:47:17 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aPlusBTest -->
+        <test-method status="PASS" signature="aPlusBTest(long,long,long)[pri:0, instance:SumCalculatorTest@52af6cff]" name="aPlusBTest" duration-ms="0" started-at="2021-04-18T15:47:17 EEST" data-provider="valuesForSumTest" finished-at="2021-04-18T15:47:17 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aPlusBTest -->
+        <test-method status="PASS" signature="aPlusBTest(long,long,long)[pri:0, instance:SumCalculatorTest@52af6cff]" name="aPlusBTest" duration-ms="1" started-at="2021-04-18T15:47:17 EEST" data-provider="valuesForSumTest" finished-at="2021-04-18T15:47:17 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aPlusBTest -->
+        <test-method status="PASS" signature="aPlusBTest(long,long,long)[pri:0, instance:SumCalculatorTest@52af6cff]" name="aPlusBTest" duration-ms="0" started-at="2021-04-18T15:47:17 EEST" data-provider="valuesForSumTest" finished-at="2021-04-18T15:47:17 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aPlusBTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SumCalculatorTest@52af6cff]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-04-18T15:47:17 EEST" finished-at="2021-04-18T15:47:17 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SumCalculatorTest -->
+    </test> <!-- Sum Calculator Test -->
+    <test name="Substraction Calculator Test" duration-ms="1" started-at="2021-04-18T15:47:17 EEST" finished-at="2021-04-18T15:47:17 EEST">
+      <class name="SubtractionCalculatorTest">
+        <test-method status="PASS" signature="twoMinusOneTest()[pri:0, instance:SubtractionCalculatorTest@573f2bb1]" name="twoMinusOneTest" duration-ms="0" started-at="2021-04-18T15:47:17 EEST" finished-at="2021-04-18T15:47:17 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twoMinusOneTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SubtractionCalculatorTest@573f2bb1]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-04-18T15:47:17 EEST" finished-at="2021-04-18T15:47:17 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:SubtractionCalculatorTest@573f2bb1]" name="setUp" is-config="true" duration-ms="0" started-at="2021-04-18T15:47:17 EEST" finished-at="2021-04-18T15:47:17 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- SubtractionCalculatorTest -->
+    </test> <!-- Substraction Calculator Test -->
+  </suite> <!-- Demo Suite -->
+  <suite name="Default Suite" duration-ms="0" started-at="2021-04-18T15:47:17 EEST" finished-at="2021-04-18T15:47:17 EEST">
+    <groups>
+    </groups>
+  </suite> <!-- Default Suite -->
+</testng-results>
